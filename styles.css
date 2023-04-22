@@ -1,0 +1,44 @@
+/* p {
+    background-color: orange;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    background: green;
+}
+
+p {
+    background: purple;
+    color: blue;
+} */
+
+/* #food {
+    background-color: green;
+       
+}
+
+p {
+    background-color: orange;
+    color: white; 
+} */
+
+.hotdog p {
+    background-color: brown;
+}
+
+.hotdog p.mustard {
+    background-color: yellow;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.btn-danger {
+    background: red;
+}
+
+.btn-success {
+    background: green;
+}
