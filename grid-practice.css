@@ -6,16 +6,25 @@
 
 .grid-container {
     display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-rows: 300px 600px 300px;
+    grid-template-areas: 
+    "header header"
+    "main main"
+    "footer .";
 }
 
 .header {
     background-color: purple;
+    grid-area: header;
 }
 
 .main {
     background-color: aqua;
+    grid-area: main;
 }
 
 .footer {
     background-color: blue;
+    grid-area: footer;
 }
