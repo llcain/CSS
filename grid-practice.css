@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 60px;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: auto 200px;
