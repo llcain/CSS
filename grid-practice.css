@@ -32,6 +32,22 @@
     color: white;
 }
 
+.hamburger {
+    display: none;
+}
+
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+
+
 .text-box {
     margin: 40px auto;
     width: 750px;
@@ -71,4 +87,20 @@
 .footer {
     background-color: blue;
     grid-area: footer;
+}
+
+@media (max-width: 768px) {
+    
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 5px;
+        z-index: 1;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
 }
