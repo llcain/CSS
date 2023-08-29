@@ -77,11 +77,15 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto 200px;
-    grid-template-rows: 300px 600px 300px;
+    grid-template-rows: 400px 600px 300px;
     grid-template-areas: 
     "header header"
     "main main"
     "footer footer";
+}
+
+header {
+    height: 75%vh;
 }
 
 .header {
@@ -107,6 +111,7 @@
         top: 50px;
         right: 5px;
         z-index: 1;
+        margin-right: 25px;
     }
 
     
@@ -153,6 +158,19 @@
         right: 0;
         z-index: 100;
         transition: 0.2s ease;
+    }
+
+    .text-box {
+        padding: 25px;
+    }
+
+    .text-box h1 {
+        margin-left: 200px;
+    }
+
+    .text-box p {
+        margin-left: 75px;
+         font-size: 18px;
     }
 
 }
