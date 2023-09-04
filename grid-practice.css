@@ -79,7 +79,7 @@
     width: 80%;
     margin: 0 auto;
     grid-template-columns: auto 200px;
-    grid-template-rows: 400px 700px 100px;
+    grid-template-rows: 400px auto 100px;
     grid-template-areas: 
     "header header"
     "main main"
@@ -99,6 +99,30 @@ header {
     background-color: aqua;
     color: white;
     grid-area: main;
+}
+
+.row {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.col {
+    width: 45%;
+}
+
+p {
+    font-size: 2.3em;
+    padding: 0px 50px;
+    line-height: 3rem;
+}
+
+img {
+    margin: 0 100px;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
 }
 
 .footer {
