@@ -76,8 +76,10 @@
 
 .grid-container {
     display: grid;
+    width: 80%;
+    margin: 0 auto;
     grid-template-columns: auto 200px;
-    grid-template-rows: 400px 600px 300px;
+    grid-template-rows: 400px 700px 100px;
     grid-template-areas: 
     "header header"
     "main main"
@@ -95,11 +97,13 @@ header {
 
 .main {
     background-color: aqua;
+    color: white;
     grid-area: main;
 }
 
 .footer {
     background-color: blue;
+    color: white;
     grid-area: footer;
 }
 
