@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -141,6 +145,8 @@ img {
         z-index: 1;
         margin-right: 25px;
     }
+
+    
 
     
 
