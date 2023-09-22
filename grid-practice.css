@@ -224,7 +224,25 @@ img {
 
     .grid-container {
         width: 800px;
+        display: grid;
         
+    }
+
+    .text-box {
+        margin: 60px 15px 30px 10px;
+    }
+
+    .text-box h1 {
+        font-size: 16px;
+        margin: 0 20px 35px 60px;
+        padding-left: 150px;
+    }
+
+    .text-box p {
+        margin-right: 20px;
+        padding-right: 70px;
+        margin-left: 20px;
+        padding-left: 20px;
     }
 
     
