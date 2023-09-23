@@ -99,6 +99,8 @@ header {
     grid-area: header;
 }
 
+
+
 .main {
     background-color: aqua;
     color: white;
