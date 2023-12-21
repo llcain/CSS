@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+    }
+
+    .col {
+        flex-grow: 1;
+    }
+}
