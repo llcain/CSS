@@ -7,3 +7,7 @@ for( let i = 0; i < elements.length; i++) {
 }
 
 console.log(elements);
+
+fetch("./data/users.json")
+.then(Response => Response.json())
+.then(data =>  console.log(data))
