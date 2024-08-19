@@ -1,4 +1,10 @@
+ body {
+    background-color: #fd5f00;
+ }
 
+ h1 {
+    color: #009efd;
+ }
 
 
 /* @media (max-width: 640px) {
