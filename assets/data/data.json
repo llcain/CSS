@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Soumyaneel Sarkar",
+        "desc": "I am a MCA Student"
+    },
+    {
+        "id": 2,
+        "name": "Arunava Das",
+        "desc": " I am a Data Science Enthusiastic"
+    },
+    {
+        "id": 3,
+        "name": "Pritam Sarkar",
+        "desc": "I am ML Enthusiatic"
+    }
+]
